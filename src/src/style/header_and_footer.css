@@ -14,11 +14,11 @@
         /* height: 100%; */
     }
     header , footer{
-        background-color: rgba(50, 111, 125, 0.7);
+        background-color: rgba(50, 111, 125, 1);
         height: 75px;
     
     }
-    header.scrolled {
+    .scrolled {
         background-color: rgba(50, 111, 125, 1); 
       }
     header {

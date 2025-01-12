@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 767px) and (orientation: landscape) {
+@media (max-width: 767px) and (orientation: landscape){
     .div1{
     
       display: flex;
