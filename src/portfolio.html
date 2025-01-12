@@ -5,59 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="images/favicon-16x16.png" rel="icon">
     <title>portfolio personal portfolio</title>
+    <link rel="stylesheet" href="src/style/portfolio.css">
+    <link rel="stylesheet" href="src/style/general.css">
+    <link rel="stylesheet" href="src/style/header_and_footer.css">
 
 </head>
 <body>
     <header>
-        
-        <nav>
-            <img src="images/faviconheader2.png" alt="">
-
-           
-            <ul>
-                <li><a href="home.html">
-                    Home
-                </a></li>
-                <li>
-                    <a href="aboutme.html">
-                        About Me
-                    </a>
-                    
-                </li>
-                <li><a href="cv.html">cv</a></li>
-                
-               <li>
-                <a href="portfolio.html">Portfolio</a>
-
-               </li> 
-               <li>
-                <a href="contactme.html">
-                    Contact Me
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="headerimage" src="images/faviconheader2.png" alt="">
                 </a>
-
-                </li>
-            </ul>
+            </div>
+            <div class="hamburger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav-menu hide">
+                <a href="index.html">Home</a>
+                
+                <a href="aboutme.html">About</a>
+                <a href="cv.html">Cv</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contactme.html">Contact</a>
+            </div>
         </nav>
     </header>
-    <div>
-        <img src="images/portflioimage/adivisor.jpg" alt="">
-        <p>as your company technology advisor</p>
-        <img src="images/portflioimage/java.jpg" alt="">
-        <p>you can get me as java programmer</p>
-        <img src="images/portflioimage/teammember.jpg" alt="">
-        <p>to have a creative team member</p>
-        <img src="images/portflioimage/website.jpg" alt="">
-        <p>develop front end and resposive website</p>
-        <img src="images/portflioimage/cyber.jpg" alt="">
-        <p>i can provide valuable insights and effective solutions for your organization seeking to strengthen their cybersecurity posture.</p>
-        <img src="images/portflioimage/data.jpg" alt="">
-        <p>i can effectively analyze complex datasets and deliver data-driven recommendations that improve your organization.</p>
+    <main>
+    <div class="allimage">
+        <div class="img3 fleximg">
+            <div class="flex">
+                <img src="images/portflioimage/adivisor.jpg" alt="">
+                <p>as your company technology advisor</p>
+            </div>
+            <div class="flex">
+                <img src="images/portflioimage/java.jpg" alt="">
+                <p>you can get me as java programmer</p>
+            </div>
+        </div>
+        <div class="fleximg">
+            <div class="reverseflex flex">
+                    <img src="images/portflioimage/teammember.jpg" alt="">
+
+                    <p>to have a creative team member</p>
+            </div>
+        
+        
+            <div class="reverseflex flex">
+
+                <img src="images/portflioimage/website.jpg" alt="">
+                <p>develop front end and resposive website</p>
+            </div>
+        </div>
+        <div class="img3 fleximg">
+            <div class="flex">
+                <img src="images/portflioimage/cyber.jpg" alt="">
+                <p>i can provide valuable insights and effective solutions for your organization seeking to strengthen their cybersecurity posture.</p>
+            </div>
+            <div class="flex">
+                <img src="images/portflioimage/data.jpg" alt="">
+                <p>i can effectively analyze complex datasets and deliver data-driven recommendations that improve your organization.</p>
+            </div>
+         </div>
     </div>
+    </main>
     <footer>
-        <img src="images/contactmeimage/email.jpg" alt="" >
-        <p>Feel free to reachout</p>
-        <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
-        <!-- copy right -->
+        <div class="footerdiv">
+            <div class="divfooter">
+                <img class="footerimage" src="images/contactmeimage/email.jpg" alt="">
+                <p>Feel free to reachout</p>
+            </div>
+            <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
+            
+     </div>
     </footer>
+    <script src="src/script/general.js"></script>
 </body>
 </html>

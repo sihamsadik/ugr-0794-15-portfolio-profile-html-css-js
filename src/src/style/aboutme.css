@@ -1,0 +1,102 @@
+
+h2{
+    margin: auto 19px;
+}
+section img, section video ,section p{
+    width: 90%;
+    margin: 1em;
+}
+.divimg p{
+    display: none;
+        
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    
+    .divimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .divsection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
+    }
+    
+    .divvedio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section{
+        margin: auto;
+    }
+    h2{
+        margin: 43px;
+    }
+    
+
+
+
+
+}
+
+@media (max-width: 767px) and (orientation: landscape){
+   
+    
+    .divimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+            
+    }
+    .divimg p{
+        display: block;
+        margin: auto;
+        
+
+    }
+    section{
+        margin: auto;
+    }
+    .divaudio{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 15px;
+
+    }
+    
+    .divvedio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+} 
+@media (min-width: 768px) and (max-width: 1023px){
+    .imgdiv{
+        display: flex;
+        
+    }
+    .divimg{
+        display: block;
+    }
+    .divimg p{
+        margin: auto auto 15px auto;
+    }
+
+    .divvedio p{
+        margin: auto;
+    }
+
+}
+@media (min-width: 1024px){
+    .divaudio{
+        display: block;
+    }
+    
+
+}

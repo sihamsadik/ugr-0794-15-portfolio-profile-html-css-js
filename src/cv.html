@@ -5,58 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="images/favicon-16x16.png" rel="icon">
     <title>cv portfolio</title>
+    <link rel="stylesheet" href="src/style/cv.css">
+    <link rel="stylesheet" href="src/style/general.css">
+    <link rel="stylesheet" href="src/style/header_and_footer.css">
 </head>
 <body>
     <header>
-
-        <nav>
-            <img src="images/faviconheader2.png" alt="">
-
-            
-            <ul>
-                <li><a href="home.html">
-                    Home
-                </a></li>
-                <li>
-                    <a href="aboutme.html">
-                        About Me
-                    </a>
-                    
-                </li>
-                <li><a href="cv.html">cv</a></li>
-                
-               <li>
-                <a href="portfolio.html">Portfolio</a>
-
-               </li> 
-               <li>
-                <a href="contactme.html">
-                    Contact Me
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="headerimage" src="images/faviconheader2.png" alt="">
                 </a>
-
-                </li>
-            </ul>
+            </div>
+            <div class="hamburger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav-menu hide">
+                <a href="index.html">Home</a>
+                
+                <a href="aboutme.html">About</a>
+                <a href="cv.html">Cv</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contactme.html">Contact</a>
+            </div>
         </nav>
     </header>
+    <main>
 
     <section>
         <h3>certification</h3>
-        <div>
-            <img src="images/cvimage/cybercirtificate.png" alt="">
-            <p> My cybersecurity certification validates my expertise in  network security and  application security. The certification program included rigorous assessments and practical exercises, culminating in a project where I get a security awareness training program]. This experience has equipped me to provide valuable insights and effective solutions for organizations seeking to strengthen their cybersecurity posture</p>
-        </div>
-        <div>
-            <img src="images/cvimage/datacirtificate.png" alt="">
-            <p> My data analytics certification showcases proficiency in a range of tools and techniques essential for extracting actionable insights from data.
+        <div class="media-certificate"> 
+            <div class="certificate1">
+            <div class="certificate">
+                <img src="images/cvimage/cybercirtificate.png" alt="">
+                <p> My cybersecurity certification validates my expertise in  network security and  application security. The certification program included rigorous assessments and practical exercises, culminating in a project where I get a security awareness training program]. This experience has equipped me to provide valuable insights and effective solutions for organizations seeking to strengthen their cybersecurity posture</p>
+            </div>
+            <div class="certificate certificate2">
+                <img src="images/cvimage/datacirtificate.png" alt="">
+                <p> My data analytics certification showcases proficiency in a range of tools and techniques essential for extracting actionable insights from data.
 
-            </p>
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="images/cvimage/netcirtificate.png" alt="">
-            <p>My networking certification demonstrates a deep understanding of key networking technologies and protocols, including TCP\IP</p>
+            <div class="certificate certificate3">
+                <img src="images/cvimage/netcirtificate.png" alt="">
+                <p>My networking certification demonstrates a deep understanding of key networking technologies and protocols, including TCP\IP</p>
+            </div>
         </div>
     </section>
-    <section>
+    <section class="rank">
         <h3>ranking my skil in 100% </h3>
          <table>
             <tr>
@@ -94,14 +93,20 @@
             
          </table>
     </section>
+    </main>
     <footer>
-        <img src="images/contactmeimage/email.jpg" alt="" >
-        <p>Feel free to reachout</p>
-        <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
-        <!-- copy right -->
+        <div class="footerdiv">
+            <div class="divfooter">
+                <img class="footerimage" src="images/contactmeimage/email.jpg" alt="">
+                <p>Feel free to reachout</p>
+            </div>
+            <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
+            
+     </div>
     </footer>
     
-
     
+
+    <script src="src/script/general.js"></script>
 </body>
 </html>

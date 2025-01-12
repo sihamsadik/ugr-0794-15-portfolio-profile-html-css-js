@@ -9,72 +9,76 @@
     <link rel="manifest" href="/site.webmanifest">
     <link href="images/favicon-16x16.png" rel="icon">
     <title>about me  personal portfolio</title>
+    <link rel="stylesheet" href="src/style/aboutme.css">
+    <link rel="stylesheet" href="src/style/general.css">
+    <link rel="stylesheet" href="src/style/header_and_footer.css">
 </head>
 <body>
     <header>
-       
-        <nav>
-            <img src="images/faviconheader2.png" alt="">
-
-           
-            <ul>
-                <li><a href="home.html">
-                    Home
-                </a></li>
-                <li>
-                    <a href="aboutme.html">
-                        About Me
-                    </a>
-                    
-                </li>
-                <li><a href="cv.html">cv</a></li>
-                
-               <li>
-                <a href="portfolio.html">Portfolio</a>
-
-               </li> 
-               <li>
-                <a href="contactme.html">
-                    Contact Me
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="headerimage" src="images/faviconheader2.png" alt="">
                 </a>
-
-                </li>
-            </ul>
+            </div>
+            <div class="hamburger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav-menu hide">
+                <a href="index.html">Home</a>
+                
+                <a href="aboutme.html">About</a>
+                <a href="cv.html">Cv</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contactme.html">Contact</a>
+            </div>
         </nav>
     </header>
     <section>
-        <h3>plan</h3>
-        <div>
-            <img src="images/aboutmeimage/plan1.jpg" alt="">
-            <p> Have specific and detail plan</p>
-        </div>
-        <div>
-            <img src="images/aboutmeimage/plan2.jpg" alt="">
-            <p>To be expert in technology field is one of iy</p>
-        </div>
-        <div>
-            <audio controls>
-                <source src="audios/audio.mp3" > 
+        <h2>plan</h2>
+        <div class="divsection">
+            <div class="imgdiv">
+                <div class="divimg">
+                    <img src="images/aboutmeimage/plan1.jpg" alt="">
+                    <p> Have specific and detail plan</p>
+                </div>
+                <div class="divimg">
+                    <img src="images/aboutmeimage/plan2.jpg" alt="">
+                    <p>To be expert in technology field is one of my goal</p>
+                </div>
+            </div>
+            <div class="divaudio">
+                <audio controls>
+                    <source src="audios/audio.mp3" > 
 
-            </audio>
-        
-            <p>My passion is creating innovative solutions, and I believe we can achieve something incredible together. Reach out using the contact information on my 'Contact Me' page</p>
+                </audio>
+            
+                <p>My passion is creating innovative solutions, and I believe we can achieve something incredible together. Reach out using the contact information on my 'Contact Me' page</p>
+            </div>
         </div>
     </section>
     <section>
-        <h3>hobby</h3>
+        <h2>hobby</h2>
+        <div class="divvedio">
         <video controls >
             <source src="vedios/hobby.mp4">
         </video>
         <p>The quiet contemplation and deep thinking that accompany reading philosophical works are a cherished part of my routine</p>
-        <!-- vidio link -->
+        
+         </div>
     </section>
     <footer>
-        <img src="images/contactmeimage/email.jpg" alt="">
-        <p>Feel free to reachout</p>
-        <!-- copy right -->
-         <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
-         
+        <div class="footerdiv">
+            <div class="divfooter">
+                <img class="footerimage" src="images/contactmeimage/email.jpg" alt="">
+                <p>Feel free to reachout</p>
+            </div>
+            <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
+            
+     </div>
     </footer>
+    <script src="src/script/general.js"></script>
 </body>
 </html>

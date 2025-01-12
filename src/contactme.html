@@ -5,89 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="images/favicon-16x16.png" rel="icon">
     <title>contact me personal portfolio</title>
+    <link rel="stylesheet" href="src/style/contactme.css">
+    <link rel="stylesheet" href="src/style/general.css">
+    <link rel="stylesheet" href="src/style/header_and_footer.css">
 </head>
 <body>
     <header>
-        
-        <nav>
-            <img src="images/faviconheader2.png" alt="">
-
-            
-            <ul>
-                <li><a href="home.html">
-                    Home
-                </a></li>
-                <li>
-                    <a href="aboutme.html">
-                        About Me
-                    </a>
-                    
-                </li>
-                <li><a href="cv.html">cv</a></li>
-                
-               <li>
-                <a href="portfolio.html">Portfolio</a>
-
-               </li> 
-               <li>
-                <a href="contactme.html">
-                    Contact Me
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="headerimage" src="images/faviconheader2.png" alt="">
                 </a>
-
-                </li>
-            </ul>
+            </div>
+            <div class="hamburger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="nav-menu hide">
+                <a href="index.html">Home</a>
+                
+                <a href="aboutme.html">About</a>
+                <a href="cv.html">Cv</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="#">Contact</a>
+            </div>
         </nav>
     </header>
-    <section>
-        <div>
-            <img src="images/contactmeimage/photo_2024-11-24_07-17-57.jpg" alt="">
+    <main>
+        <section class="all-div">
+
+       
+        <div class="big-img">
+            <img src="images/contactmeimage/photo_2024-11-24_07-17-57.jpg" alt="">   
+        </div>
+        
+        <section class="alldiv">
+            <div class="contact-flex">   
+            <div class="contact-me">
+                <img src="images/contactmeimage/GITHUB.jpg" alt="">
+                <div>
+                    <p>GITHUB</p>
+                    <a href="https://github.com/sihamsadik">
+                        sihamsadik
+                    </a>
+                </div>
+
+
+                
+            </div>
+            <div class="contact-me">
+                <img src="images/contactmeimage/email.jpg" alt="">
+                <div>
+                    <p>email me</p>
+                    <a href="https://mssgntt@gmail.com">mssgntt@gmail.com </a>
+
+                </div>
+            </div>
+            </div>
+            <div class="contact-me">
+                <img src="images/contactmeimage/phone.png" alt="">
+                <div>
+                    <p>Call Me</p>
+                    <p>+251965561134</p>
+
+                </div>
+                
+        </div>
+    </section>
+    </section>
+    <div class="button">
+            <button>
+                linkedin
+            </button>
             <h2>Let's have talk to make something amazing</h2>
             
         </div>
-        <img src="#" alt="">
-         <div>
-            <img src="images/contactmeimage/GITHUB.jpg" alt="">
-                <p>GITHUB</p>
-                <a href="https://github.com/sihamsadik">
-                    sihamsadik
-                </a>
-
-            </div>
-         
-         <div>
-            <img src="images/contactmeimage/email.jpg" alt="">
-            <div>
-                <p>email me</p>
-                <a href="https://mssgntt@gmail.com"><p>mssgntt@gmail.com</p> </a>
-
-            </div>
-          </div>
-          <div>
-            <img src="images/contactmeimage/phone.png" alt="">
-            <div>
-                <p>Call Me</p>
-                <p>+251965561134</p>
-
-            </div>
-            
-          </div>
-          <div>
-            <button>
-                linkedin
-            
-                
-            
-            </button>
-            
-        </div>
         
-    </section>
+    </main>
     <footer>
-        <img src="images/contactmeimage/email.jpg" alt="" >
-        <p>Feel free to reachout</p>
-        <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
-        <!-- copy right -->
+        <div class="footerdiv">
+            <div class="divfooter">
+                <img class="footerimage" src="images/contactmeimage/email.jpg" alt="">
+                <p>Feel free to reachout</p>
+            </div>
+            <p>&copy; Copyright <em>MG</em> All Right Reserved</p>
+            
+     </div>
     </footer>
+    <script src="src/script/general.js"></script>
     
 </body>
 </html>

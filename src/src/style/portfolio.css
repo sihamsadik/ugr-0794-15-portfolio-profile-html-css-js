@@ -1,0 +1,124 @@
+
+ main div img {
+    width: 75%;
+    margin: 0 2em ;
+    height: 10em;
+  }
+  
+ 
+ 
+.flex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+}
+main div img, main div p{
+    margin: 0.5em;
+    
+    padding: 0;
+}
+main div p{
+    width: 75%;
+}
+
+@media (max-width: 767px) and (orientation: landscape){
+    .flex{
+        display: block;
+        display: flex;
+        background-color: #999898;
+        margin: 1em;
+        border-radius: 3em;
+        width: 50%;
+        align-items:center;
+        
+        
+    }
+    .flex img, .flex p{
+        width: 50%;
+        border-radius: 2em;
+    }
+
+    .reverseflex{
+        flex-direction:row-reverse;
+        
+        margin-left: 50%;
+        flex: 1;
+        
+        
+      }
+
+      
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .img3{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .flex{
+        display: flex;
+        margin: 10px;
+        margin-right: 0;
+      
+        width: 92%;
+    }
+    .flex img, .flex p {
+        width: 80%;
+        margin-right: 0.5em;
+        
+
+    }
+    
+    
+    .reverseflex{
+        margin: 1em;
+        flex-direction: row;
+        width: 45%;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    .img3{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .flex img, .flex p {
+        width: 90%;
+        margin-right: 1em;
+    }
+    .flex{
+        display: block;
+        padding: 1em;
+        width: 80%;
+
+    }
+    
+    .reverseflex{
+        margin: 1em;
+        width: 40%;
+    }
+
+
+}
+@media(min-width: 1024px){
+    .fleximg{
+        display: grid;grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        column-gap: 5em;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    .reverseflex{
+        width: 80%;
+
+    }
+    .flex{
+        width: 80%;
+    }
+
+}
+
+
